@@ -1,18 +1,15 @@
 <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+
 # STAY ON TRACK 🎯
 
 ## Basic Details
 ## An AI-powered focus assistant designed specifically for people with ADHD to help them stay attentive while studying or working.
 
-### Team Name: [Name]
 ### HACKY
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
 - CHRISTINA PAUL
 - ISHA FAIZAL
 
@@ -20,7 +17,6 @@
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
 A Flutter Web app that uses real-time AI to track attention via webcam, score focus, and motivate users with gamification.
 
 ### The Problem statement
