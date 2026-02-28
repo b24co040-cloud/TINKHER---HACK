@@ -14,17 +14,14 @@
 - ISHA FAIZAL
 
 ### Hosted Project Link
-[mention your project hosted link here]
 
 ### Project Description
 A Flutter Web app that uses real-time AI to track attention via webcam, score focus, and motivate users with gamification.
 
 ### The Problem statement
-[What problem are you solving?]
 People with ADHD struggle to stay focused; current tools don’t measure real attention.
 
 ### The Solution
-[How are you solving it?]
 AI detects face/eye direction + tab switching
 
 Focus score updates every minute
