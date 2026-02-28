@@ -1,33 +1,43 @@
-<p align="center">
-  <img src="./img.png" alt="Project Banner" width="100%">
+<img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
 # [Project Name] 🎯
+# STAY ON TRACK 🎯
 
 ## Basic Details
+## An AI-powered focus assistant designed specifically for people with ADHD to help them stay attentive while studying or working.
 
 ### Team Name: [Name]
+### HACKY
 
 ### Team Members
 - Member 1: [Name] - [College]
 - Member 2: [Name] - [College]
+- CHRISTINA PAUL
+- ISHA FAIZAL
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
 [2-3 lines about what your project does]
+A Flutter Web app that uses real-time AI to track attention via webcam, score focus, and motivate users with gamification.
 
 ### The Problem statement
 [What problem are you solving?]
+People with ADHD struggle to stay focused; current tools don’t measure real attention.
 
 ### The Solution
 [How are you solving it?]
+AI detects face/eye direction + tab switching
+
+Focus score updates every minute
+
+Users get nudges, XP, streaks, and analytics
 
 ---
 
-## Technical Details
-
+@@ -31,390 +35,173 @@
 ### Technologies/Components Used
 
 **For Software:**
@@ -42,6 +52,23 @@
 - Tools required: [List tools needed]
 
 ---
+Frontend (Web App)
+HTML5 + CSS3 + JavaScript
+WebRTC (browser camera access)
+WebSockets (real-time updates)
+Charts (Chart.js / ECharts)
+Animations (CSS + GSAP)
+Backend (AI + APIs)
+Python
+FastAPI (REST + WebSockets)
+OpenCV (face & eye detection)
+MediaPipe (landmark & head pose detection)
+Data Layer
+SQLite (MVP)
+PostgreSQL (production)
+Hosting & Deployment
+Firebase (frontend hosting)
+Render or Railway (backend)
 
 ## Features
 
@@ -50,17 +77,22 @@ List the key features of your project:
 - Feature 2: [Description]
 - Feature 3: [Description]
 - Feature 4: [Description]
+🧠 AI-Powered Focus Tracking
 
 ---
+Live webcam attention detection
 
 ## Implementation
+Face presence + eye direction tracking
 
 ### For Software:
+Detects looking away for distractions
 
 #### Installation
 ```bash
 [Installation commands - e.g., npm install, pip install -r requirements.txt]
 ```
+Head tilt detection (optional emotions)
 
 #### Run
 ```bash
@@ -68,31 +100,42 @@ List the key features of your project:
 ```
 
 ### For Hardware:
+⏱️ Focus Score (Real-Time)
 
 #### Components Required
 [List all components needed with specifications]
+Updates every minute
 
 #### Circuit Setup
 [Explain how to set up the circuit]
+Based on attention + tab switching + productive site time
 
 ---
+Simple score to measure focus
 
 ## Project Documentation
+🎮 Gamification & Motivation
 
 ### For Software:
+XP points, levels, streaks
 
 #### Screenshots (Add at least 3)
+Daily focus goals
 
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
+Animated avatar reactions
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
+Rewards for focus sessions
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
+📊 Analytics Dashboard
 
 #### Diagrams
+Daily focus graph
 
 **System Architecture:**
 
@@ -105,23 +148,31 @@ List the key features of your project:
 *Add caption explaining your workflow*
 
 ---
+Weekly trends
 
 ### For Hardware:
+Most distracting websites
 
 #### Schematic & Circuit
+Session history
 
 ![Circuit](Add your circuit diagram here)
 *Add caption explaining connections*
+🔔 Smart Nudges
 
 ![Schematic](Add your schematic diagram here)
 *Add caption explaining the schematic*
+Browser notifications when distracted
 
 #### Build Photos
+Gentle reminders (non-annoying).Optional sound alerts
 
 ![Team](Add photo of your team here)
+🌐 Web-Based & Accessible.Runs in any browser
 
 ![Components](Add photo of your components here)
 *List out all components shown*
+No installation required.Privacy-first (no raw video stored)
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
@@ -140,6 +191,7 @@ List the key features of your project:
 **Base URL:** `https://api.yourproject.com`
 
 ##### Endpoints
+## Implementation
 
 **GET /api/endpoint**
 - **Description:** [What it does]
@@ -153,6 +205,7 @@ List the key features of your project:
   "data": {}
 }
 ```
+### For Software:
 
 **POST /api/endpoint**
 - **Description:** [What it does]
@@ -169,6 +222,9 @@ List the key features of your project:
   "status": "success",
   "message": "Operation completed"
 }
+#### Installation
+```bash
+ npm install, pip install -r requirements.tx]
 ```
 
 [Add more endpoints as needed...]
@@ -201,6 +257,7 @@ List the key features of your project:
 5. Open the app from your home screen
 
 **Building from Source:**
+#### Run
 ```bash
 # For Android
 flutter build apk
@@ -211,6 +268,7 @@ flutter build apk
 flutter build ios
 # or
 xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
+ npm start, python main.py
 ```
 
 ---
@@ -218,6 +276,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 ### For Hardware Projects:
 
 #### Bill of Materials (BOM)
+## Project Documentation
 
 | Component | Quantity | Specifications | Price | Link/Source |
 |-----------|----------|----------------|-------|-------------|
@@ -227,8 +286,10 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 | Breadboard | 1 | 830 points | ₹100 | [Link] |
 | Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
 | [Add more...] | | | | |
+### For Software:
 
 **Total Estimated Cost:** ₹[Amount]
+#### Screenshots 
 
 #### Assembly Instructions
 
@@ -238,6 +299,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 3. Prepare your workspace
 ![Step 1](images/assembly-step1.jpg)
 *Caption: All components laid out*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fda126aa-0ce4-46a8-88ef-00c5f0d9c3b6" />
 
 **Step 2: Build the Power Supply**
 1. Connect the power rails on the breadboard
@@ -245,6 +307,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 3. Connect Arduino GND to breadboard negative rail
 ![Step 2](images/assembly-step2.jpg)
 *Caption: Power connections completed*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67f40183-d7ba-48f7-9dd9-483ea53374f4" />
 
 **Step 3: Add Components**
 1. Place LEDs on breadboard
@@ -253,6 +316,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 4. Connect LED anodes to Arduino digital pins (2-6)
 ![Step 3](images/assembly-step3.jpg)
 *Caption: LED circuit assembled*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dfe012c6-741c-45b8-bb57-fd56e4c58e2c" />
 
 **Step 4: [Continue for all steps...]**
 
@@ -269,21 +333,22 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 **Basic Usage:**
 ```bash
 python script.py [options] [arguments]
-```
 
+
+```
 **Available Commands:**
 - `command1 [args]` - Description of what command1 does
 - `command2 [args]` - Description of what command2 does
 - `command3 [args]` - Description of what command3 does
-
 **Options:**
 - `-h, --help` - Show help message and exit
 - `-v, --verbose` - Enable verbose output
 - `-o, --output FILE` - Specify output file path
 - `-c, --config FILE` - Specify configuration file
 - `--version` - Show version information
-
 **Examples:**
+**Output:**
+```
 
 ```bash
 # Example 1: Basic usage
@@ -291,6 +356,7 @@ python script.py input.txt
 
 # Example 2: With verbose output
 python script.py -v input.txt
+### Video
 
 # Example 3: Specify output file
 python script.py -o output.txt input.txt
@@ -298,10 +364,12 @@ python script.py -o output.txt input.txt
 # Example 4: Using configuration
 python script.py -c config.json --verbose input.txt
 ```
+https://github.com/user-attachments/assets/7a220c9c-4fe7-49ac-a65d-8c467eb1a16c
 
 #### Demo Output
 
 **Example 1: Basic Processing**
+*Explain what the video demonstrates - key features, user flow, technical highlights*
 
 **Input:**
 ```
@@ -314,6 +382,7 @@ for demonstration purposes
 ```bash
 python script.py sample.txt
 ```
+---
 
 **Output:**
 ```
@@ -323,8 +392,11 @@ Characters counted: 86
 Status: Success
 Output saved to: output.txt
 ```
+## AI Tools Used (Optional - For Transparency Bonus)
+OpenCV
 
 **Example 2: Advanced Usage**
+Face detection
 
 **Input:**
 ```json
@@ -333,11 +405,13 @@ Output saved to: output.txt
   "value": 123
 }
 ```
+Eye region tracking
 
 **Command:**
 ```bash
 python script.py -v --format json data.json
 ```
+Head pose estimation
 
 **Output:**
 ```
@@ -355,38 +429,51 @@ python script.py -v --format json data.json
 }
 [VERBOSE] Operation completed in 0.23s
 ```
+MediaPipe
 
 ---
+Facial landmarks
 
 ## Project Demo
+Eye gaze approximation
 
 ### Video
 [Add your demo video link here - YouTube, Google Drive, etc.]
+Head tilt detection
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
+Backend AI Serving
 
 ### Additional Demos
 [Add any extra demo materials/links - Live site, APK download, online demo, etc.]
+FastAPI
 
 ---
+Serves AI models via REST & WebSockets
 
 ## AI Tools Used (Optional - For Transparency Bonus)
+Real-time inference pipeline
 
 If you used AI tools during development, document them here for transparency:
+ML Framework (Optional / Extensible)
 
 **Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+TensorFlow or PyTorch
 
 **Purpose:** [What you used it for]
 - Example: "Generated boilerplate React components"
 - Example: "Debugging assistance for async functions"
 - Example: "Code review and optimization suggestions"
+For future emotion detection or personalized models
 
 **Key Prompts Used:**
 - "Create a REST API endpoint for user authentication"
 - "Debug this async function that's causing race conditions"
 - "Optimize this database query for better performance"
+**Tool Used:**  GitHub,  ChatGPT
 
 **Percentage of AI-generated code:** [Approximately X%]
+**Percentage of AI-generated code:** [Approximately 55%]
 
 **Human Contributions:**
 - Architecture design and planning
