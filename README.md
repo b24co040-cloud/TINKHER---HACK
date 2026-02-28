@@ -66,24 +66,18 @@ Detects looking away for distractions
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[ npm install, pip install -r requirements.txt]
 ```
 Head tilt detection (optional emotions)
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[npm start, python amain.py]
 ```
 
-### For Hardware:
-⏱️ Focus Score (Real-Time)
 
-#### Components Required
-[List all components needed with specifications]
-Updates every minute
 
 #### Circuit Setup
-[Explain how to set up the circuit]
 Based on attention + tab switching + productive site time
 
 ---
