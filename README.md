@@ -14,6 +14,7 @@
 - ISHA FAIZAL
 
 ### Hosted Project Link
+https://github.com/b24co040-cloud/TINKHER---HACK
 
 ### Project Description
 A Flutter Web app that uses real-time AI to track attention via webcam, score focus, and motivate users with gamification.
@@ -30,21 +31,9 @@ Users get nudges, XP, streaks, and analytics
 
 ---
 
-@@ -31,390 +35,173 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
 Frontend (Web App)
 HTML5 + CSS3 + JavaScript
 WebRTC (browser camera access)
@@ -65,14 +54,8 @@ Render or Railway (backend)
 
 ## Features
 
-List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
 🧠 AI-Powered Focus Tracking
 
----
 Live webcam attention detection
 
 ## Implementation
